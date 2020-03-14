@@ -1,0 +1,54 @@
+{
+  "name": "pixijs-starter-project",
+  "version": "1.0.0",
+  "description": "A quickstart template for creating games and other projects with PIXI.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/othneildrew/pixijs-starter-project.git"
+  },
+  "keywords": [
+    "pixi.js",
+    "game development",
+    "canvas",
+    "renderer",
+    "platformer game",
+    "tileset",
+    "2D games"
+  ],
+  "author": "Othneil I Drew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/othneildrew/pixijs-starter-project/issues"
+  },
+  "homepage": "https://github.com/othneildrew/pixijs-starter-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pixi.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-private-methods": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.7",
+    "browserify": "^16.5.0",
+    "fs-extra": "^8.1.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-nodemon": "^2.5.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulplog": "^1.0.0",
+    "node-sass": "^4.13.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

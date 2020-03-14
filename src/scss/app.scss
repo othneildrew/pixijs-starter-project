@@ -1,0 +1,17 @@
+/**
+ * Import application styles
+ * All files that wish to be used must be imported here first. Gulp looks for `app.scss` (this file)
+ * and only compiles files that are imported here - all other files are ignored.
+ */
+
+
+// Global Styles
+@import './global/normalize';
+@import './global/vars';
+@import './global/default';
+
+
+// Component Styles
+
+
+// Views Styles
